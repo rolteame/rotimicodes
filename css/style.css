@@ -11,9 +11,25 @@ img-container {
 }
 
 .container {
-  margin-top: 15%;
+  margin-top: 30vh;
 }
 
-@media screen(767px) {
-  
+.contact-logo {
+  font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .hero-image {
+    margin: auto;
+  }
+
+  .hero-caption h1 {
+    text-align: center;
+  }
 }
