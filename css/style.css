@@ -27,6 +27,7 @@ img-container {
 
   .hero-image {
     margin: auto;
+    object-fit: cover;
   }
 
   .hero-caption h1 {
@@ -56,12 +57,21 @@ img-container {
   margin-bottom: 20px;
 }
 
+.card-img-top {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
 .card img {
   display: block;
   margin: auto;
-  width: 150px;
+  width: 80%;
   height: 150px;
+  object-fit: cover;
 }
+
 
 @media (max-width: 480px) {
   .edu-cert {
